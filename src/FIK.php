@@ -16,7 +16,7 @@ class FIK
 	 *
 	 * @return string
 	 */
-	public function generate( $invoiceNumber = 1, $isReminder = false ): string
+	public function generate( $invoiceNumber = 1, $isReminder = false )
 	{
 		$fik = str_pad( $invoiceNumber, 13, 0, STR_PAD_LEFT );
 
@@ -34,14 +34,14 @@ class FIK
 	 *
 	 * @return string
 	 */
-	private function generateCheckDigit( $invoiceNumberPlusIdentifierDigit = 10 ): string
+	private function generateCheckDigit( $invoiceNumberPlusIdentifierDigit = 10 )
 	{
 		$curMultiplier = 1;
 		$maxMultiplier = 2;
 
 		$itemArray = str_split( $invoiceNumberPlusIdentifierDigit );
 
-		for ( $i = 0, $iMax = count( $itemArray ); $i < $iMax; $i ++ )
+		for ( $i = 0, $iMax = count( $itemArray ); $i < $iMax; $i++ )
 		{
 			$itemArray[ $i ] *= $curMultiplier;
 
