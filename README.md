@@ -1,6 +1,6 @@
 # Very short description of the package
 
-Generate danish FIK numbers easily.
+Generate danish FIK numbers easily.. Not much more to say.
 
 <p align="center"> 
 <a href="https://travis-ci.org/LasseRafn/php-fik"><img src="https://img.shields.io/travis/LasseRafn/php-fik.svg?style=flat-square" alt="Build Status"></a>
