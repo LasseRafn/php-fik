@@ -31,4 +31,13 @@ class FIKTest extends TestCase
         $this->assertEquals('000000000100305', fik_invoice(1003));
         $this->assertEquals('000000000100438', fik_reminder(1004));
     }
+
+    public function test_wont_create_helpers_if_already_exists()
+    {
+    	function fik_invoice($invoiceId) { return $invoiceId; }
+    	function fik_reminder($invoiceId) { return $invoiceId; }
+
+        $this->assertNotEquals('000000000100305', fik_invoice(1003));
+        $this->assertNotEquals('000000000100438', fik_reminder(1004));
+    }
 }
