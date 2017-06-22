@@ -6,7 +6,7 @@
 		"FIK",
 		"invoice",
 		"reminder",
-		"accounting"F
+		"accounting"
 	],
 	"homepage": "https://github.com/LasseRafn/FIK",
 	"license": "MIT",
