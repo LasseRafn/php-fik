@@ -21,9 +21,9 @@ class FIKTest extends TestCase
     {
         $fik = new FIK();
 
-        $this->assertEquals('000000000100438', $fik->generate(1004, true) );
-        $this->assertEquals('000000000000133', $fik->generate(1, true) );
-        $this->assertEquals('000000010000032', $fik->generate(100000, true) );
+        $this->assertEquals('000000000100438', $fik->generate(1004, true));
+        $this->assertEquals('000000000000133', $fik->generate(1, true));
+        $this->assertEquals('000000010000032', $fik->generate(100000, true));
     }
 
     public function test_can_use_helper_methods()
