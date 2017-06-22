@@ -1,10 +1,14 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/LasseRafn/php-fik.svg?style=flat-square)](https://packagist.org/packages/LasseRafn/php-fik)
-[![Build Status](https://img.shields.io/travis/LasseRafn/php-fik/master.svg?style=flat-square)](https://travis-ci.org/LasseRafn/php-fik)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
-[![Quality Score](https://img.shields.io/scrutinizer/g/LasseRafn/php-fik.svg?style=flat-square)](https://scrutinizer-ci.com/g/LasseRafn/php-fik)
-[![Total Downloads](https://img.shields.io/packagist/dt/LasseRafn/php-fik.svg?style=flat-square)](https://packagist.org/packages/LasseRafn/php-fik)
+<p align="center"> 
+<a href="https://travis-ci.org/LasseRafn/php-fik"><img src="https://img.shields.io/travis/LasseRafn/php-fik.svg?style=flat-square" alt="Build Status"></a>
+<a href="https://coveralls.io/github/LasseRafn/php-fik"><img src="https://img.shields.io/coveralls/LasseRafn/php-fik.svg?style=flat-square" alt="Coverage"></a>
+<a href="https://styleci.io/repos/93155252"><img src="https://styleci.io/repos/93155252/shield?branch=master" alt="StyleCI Status"></a>
+<a href="https://packagist.org/packages/lasserafn/php-fik"><img src="https://img.shields.io/packagist/dt/lasserafn/php-fik.svg?style=flat-square" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/lasserafn/php-fik"><img src="https://img.shields.io/packagist/v/lasserafn/php-fik.svg?style=flat-square" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/lasserafn/php-fik"><img src="https://img.shields.io/packagist/l/lasserafn/php-fik.svg?style=flat-square" alt="License"></a>
+</p>
+
 
 Generate danish FIK numbers easily.
 
