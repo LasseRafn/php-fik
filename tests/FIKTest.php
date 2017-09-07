@@ -44,3 +44,5 @@ class FIKTest extends TestCase
         $this->assertNotEquals('000000000100438', fik_reminder(1004));
     }
 }
+
+include __DIR__ . '/../src/helper.php';
