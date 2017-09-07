@@ -1,6 +1,6 @@
-# Very short description of the package
+# Generate danish FIK Numbers
 
-Generate danish FIK numbers easily.. Not much more to say.
+Generate danish FIK (Fælles Indbetalings Kort) numbers from invoice / reminder number.
 
 <p align="center"> 
 <a href="https://travis-ci.org/LasseRafn/php-fik"><img src="https://img.shields.io/travis/LasseRafn/php-fik.svg?style=flat-square" alt="Build Status"></a>
@@ -24,10 +24,8 @@ composer require LasseRafn/php-fik
 ``` php
 use LasseRafn\FIK\FIK;
 
-$FIK = new FIK();
-
-echo $FIK->generate(1003); // 000000000100305
-echo $FIK->generate(1004, $isReminder = true); // 000000000100438
+echo FIK::generate(1003); // 000000000100305
+echo FIK::generate(1004, $isReminder = true); // 000000000100438
 
 // Helpers
 echo fik_invoice(1003); // 000000000100305
